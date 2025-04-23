@@ -1,0 +1,382 @@
+body {
+    background-color: rgba(31, 36, 45, 1);
+    font-family: Poppins;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding-left: 70px;
+    padding-right: 70px;
+}
+
+header div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 370px;
+
+}
+
+header div a {
+    text-decoration: none;
+    color: white;
+}
+
+header div a:hover {
+    color: rgba(0, 238, 255, 1);
+}
+
+header h3 {
+
+    color: white;
+}
+
+.img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    margin-top: 103.66px;
+}
+
+.text {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+}
+
+.img button {
+    width: 176.58999633789062px;
+    height: 45px;
+    top: 636.89px;
+    left: 129.59px;
+    border-radius: 40px;
+    background-color: rgb(0, 106, 255);
+    box-shadow: 0px 0px 10px 0px rgba(0, 238, 255, 1);
+    border: none;
+}
+
+.cards {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 80%;
+    margin: 0 auto;
+    flex-wrap: wrap;
+}
+
+.cards div {
+    width: 380.2699890136719px;
+    height: 369px;
+    top: 143px;
+    left: 129.59px;
+    border-radius: 20px;
+    border-width: 2px;
+    background-color: rgba(50, 57, 70, 1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 30px;
+    text-align: center;
+    color: white;
+}
+
+.cards div button {
+    width: 152px;
+    height: 45px;
+    top: 282px;
+    left: 114.14px;
+    border-radius: 40px;
+    background-color: rgb(0, 0, 255);
+    box-shadow: 0px 0px 10px 0px rgba(0, 238, 255, 1);
+    border: none;
+}
+
+.h1 {
+    font-family: Poppins;
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-align: center;
+    vertical-align: middle;
+
+}
+
+.h1 {
+    text-align: center;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+span {
+    color: rgba(0, 238, 255, 1);
+}
+
+h2 {
+    font-family: Poppins;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    vertical-align: middle;
+
+}
+
+.text h1 {
+    font-family: Poppins;
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 72.8px;
+    letter-spacing: 0%;
+    vertical-align: middle;
+
+}
+
+section h1 {
+    color: white;
+    font-family: Poppins;
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-align: center;
+    vertical-align: middle;
+}
+
+section {
+    background-color: rgba(50, 57, 70, 1);
+    width: 100%;
+    height: 850px;
+    top: 749px;
+    left: 1px;
+}
+
+section div {
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin: 0 auto;
+
+}
+
+section div img {
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px 0px rgba(31, 36, 45, 1);
+}
+
+input {
+    width: 343px;
+    height: 55px;
+    top: 7px;
+    border-radius: 8px;
+    background-color: rgba(50, 57, 70, 1);
+}
+
+textarea {
+    width: 700px;
+    height: 280px;
+    top: 145px;
+    border-radius: 8px;
+    background-color: rgba(50, 57, 70, 1);
+}
+
+:placeholder-shown {
+    color: rgba(117, 117, 117, 1);
+}
+
+.input h1 {
+    color: white;
+}
+
+.input {
+    width: 100%;
+    height: 867px;
+    top: 2511px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 14px;
+}
+
+.input span {
+    width: 700px;
+
+}
+
+.input button {
+    width: 186.1300048828125px;
+    height: 45px;
+    top: 457px;
+    left: 256.94px;
+    border-radius: 40px;
+    background-color: rgba(0, 238, 255, 1);
+    box-shadow: 0px 0px 10px 0px rgba(0, 238, 255, 1);
+}
+.icon{
+    display: none;
+}
+footer {
+    width: 100%;
+    height: 80px;
+    top: 860px;
+    background-color: rgba(50, 57, 70, 1);
+    padding-left: 129.59px;
+    padding-right: 129.59px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+footer h5 {
+    color: white;
+}
+.input h1 div{
+    color:  rgba(0, 238, 255, 1);
+
+}
+.input h1{
+    display: flex;
+    gap: 5px;
+}
+footer div {
+    background-color: rgba(0, 238, 255, 1);
+    width: 40px;
+    height: 40px;
+    top: 20px;
+    left: 1270.41px;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+@media(max-width:900px) {
+    header img {
+        display: block;
+    }
+
+    header {
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    .img {
+        flex-direction: column;
+    }
+
+    .cards {
+        flex-wrap: wrap;
+        gap: 20px;
+        width: 100%;
+        
+    }
+
+    .card {
+        width: 90% !important;
+    }
+
+    .John {
+        width: 358.3900146484375px;
+        height: 434.95001220703125px;
+        top: 135.72px;
+        left: 573.45px;
+
+    }
+    textarea{
+        width: 85%;
+    }
+    
+    input{
+        width: 46%;
+        margin: 0 auto;
+        
+    }
+    .input span{
+        margin-left: 30px; 
+        width: 90%;   
+    }
+    .icon{
+        display: block;
+        color: white;
+    }
+    header a{
+        display: none;
+    }
+}
+
+@media(max-width:1200px) {
+    .cards div {
+        width: 268.1700134277344px;
+        height: 337.95001220703125px;
+        top: 192px;
+        left: 663.69px;
+        border-radius: 17.6px;
+        border-width: 1px;
+
+    }
+
+    .cards button {
+        margin-top: 1px;
+        gap: 5px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    section div img {
+        width: 265.2200012207031px;
+        height: 177.0800018310547px;
+        top: 183.19px;
+        left: 92.16px;
+        border-radius: 17.6px;
+
+    }
+}
+@media(max-width:600px){
+    .cards div{
+        width: 90%;
+    }
+    section{
+        height: 1500.780029296875px;
+    }
+    section div{
+        gap: 20px;
+    }
+    .icon{
+        display: block;
+        color: white;
+    }
+    footer{
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+    
+}
+@media(max-width:1300px){
+    section{
+        height: 1200px;
+    }
+    .cards div{
+        width: 350px;
+        
+    }
+}
